@@ -1,0 +1,17 @@
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'base/variables';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'base/media';
+*{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    color: #ffffff;
+}
+body{
+    background-color: #f6f6f6;
+}
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
