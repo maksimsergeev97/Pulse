@@ -1,12 +1,6 @@
 .advantages{
     min-height: 473px;
-    &__title{
-        text-align: center;
-        margin-top: 75px;
-        font-weight: bold;
-        font-size: 30px;
-        color: #0D0D0D; 
-    }
+    padding: 70px 0 65px 0;
     &__elements{
         display: flex;
         justify-content: space-between;
