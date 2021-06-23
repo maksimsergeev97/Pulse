@@ -20,6 +20,8 @@ $(document).ready(function(){
     items: 1,
     dots: false,
     nav: true,
-    navText: ["",""], 
+    navText: ["",""],
+    autoplay:true,
+    autoplayTimeout:1500,
   });
 });
