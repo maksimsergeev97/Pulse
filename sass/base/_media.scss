@@ -4,7 +4,24 @@
         padding: 0 25px;
     }
     .promo{
-        background: url(../../image/promo_background.jpg) center (left/cover) no-repeat;
+        background: url('../../image/promo_background.jpg') center (left/cover) no-repeat;
+    }
+    .consultation{
+        padding: 30px 30px;
+        background: url('../../image/consultation_background.jpg') no-repeat right -600px top;
+        &__descr{
+            text-align: center;
+        }
+    }
+    .title{
+        font-size: 25px;
+        &_white{
+            text-align: center;
+        } 
+    }
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 50px;
     }
 }
 @media (max-width: 767px) {
@@ -16,12 +33,16 @@
             flex-direction: column;
             align-items: center;
         }
-        &__title{
-            margin-top: 30px; 
-        }
         .advantages__item{
             margin-top: 30px;
-
+        }
+    }
+    .carousel{
+        .owl-carousel{
+            width: 550px;
+            .owl-prev, .owl-next{
+                display: none;
+            }
         }
     }
 }
@@ -36,8 +57,9 @@
         }
     }
     .promo{
-        background: url(../../image/promo_background.jpg) no-repeat;
+        background: url('../../image/promo_background.jpg') no-repeat;
         background-position: left -230px top;
+        padding: 21px 0;
         &__wrapper{
             margin-top: 60px;
         }
@@ -49,6 +71,37 @@
         }
         &__icons{
             margin-top: 40px;
+            .promo__icon{
+                margin-left: 10px;
+            }
+        }
+    }
+    .button_main {
+        margin-top: 45px;
+    }
+    .advantages{
+        padding: 50px 0;
+    }
+    .consultation{
+        padding: 30px 30px;
+        background: url('../../image/consultation_background.jpg') no-repeat right -600px top;
+        &__descr{
+            text-align: center;
+        }
+    }
+    .title{
+        font-size: 25px;
+        &_white{
+            text-align: center;
+        }
+    }
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .carousel{
+        .owl-carousel{
+            width: 400px;
         }
     }
 }
