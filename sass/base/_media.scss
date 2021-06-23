@@ -104,4 +104,18 @@
             width: 400px;
         }
     }
+    .catalog{
+        padding-bottom: 100px;
+        &__tabs{
+            flex-direction: column;
+            margin-top: 30px;;
+        }
+        &__tab{
+            margin-bottom: 15px;
+        }
+        &__content{
+            margin-top: 30px;
+            justify-content:space-around;
+        }
+    }
 }
